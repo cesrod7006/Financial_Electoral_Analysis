@@ -3,7 +3,7 @@ import os
 import csv
 
 #create path for csv file
-budget_csv = os.path.join('Resources','budget_data.csv')
+budget_csv = os.path.join('python-challenge/PyBank/Resources/budget_data.csv')
 
 #Set Variables and Create Lists
 Profit=[]
@@ -66,7 +66,7 @@ with open(budget_csv, newline="") as csvfile:
         print("Greatest Decrease in Profits: " + str(decrease_date) + " ($" + str(greatest_decrease_profits)+ ")")
         print("----------------------------------------------------------")
 
-with open('financial_analysis.txt','w') as text:
+with open(os.path.join('python-challenge/PyBank','Financial_Analysis.txt'),'w') as text:
     text.write("----------------------------------------------------------\n")
     text.write("  Financial Analysis"+ "\n")
     text.write("----------------------------------------------------------\n\n")

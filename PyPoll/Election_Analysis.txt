@@ -1,0 +1,12 @@
+-------------------------------------
+Election Analysis
+-------------------------------------
+
+Candidate Percentage of Votes  Vote Count
+Li14.0%492940
+O'Tooley3.0%105630
+Khan63.0%2218231
+Correy20.0%704200
+-------------------------------------
+
+Winner:Khan
